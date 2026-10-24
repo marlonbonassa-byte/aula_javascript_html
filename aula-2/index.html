@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="resultadoAluno"></h1>
+
+    <script>
+      // =recebendo valor
+      // ==compara valor
+      // ===identico...compara tipo e valor
+      // !=valor diferente
+      // !==valorr e tipo diferente
+      // > Maior
+      // <Menor
+      // <= menor ou igual
+      // >= maior ou igual
+
+      let alunoAprovado = false;
+      let elementoResultadoAluno = document.getElementById("resultadoAluno");
+
+      if (alunoAprovado) {
+        elementoResultadoAluno.textContent = "Aluno Aprovado";
+        elementoResultadoAluno.style.color = "green";
+      } else {
+        elementoResultadoAluno.textContent = "aluno reprovado";
+        elementoResultadoAluno.style.color = "red";
+      }
+    </script>
+  </body>
+</html>
